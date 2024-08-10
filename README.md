@@ -22,7 +22,7 @@ A simple and minimal portfolio website template designed for developers. This pr
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/minimal-portfolio.git 
+   git clone https://github.com/nilaachandra/minimalio.git 
    ```
 2. **Navigate to the project directory**
     ```
