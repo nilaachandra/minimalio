@@ -1,4 +1,4 @@
-# Minimal Portfolio Website
+# Minimalio
 
 A simple and minimal portfolio website template designed for developers. This project includes a home page, blogs page, works page, and an example blog. It’s perfect for beginners who want to create a clean and straightforward portfolio with minimal HTML and CSS.
 
