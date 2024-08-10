@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #101010;
+  color: white;
+  max-width: 712px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 1;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+h1 {
+  font-size: 24px;
+  line-height: 0;
+}
+a {
+  color: blue;
+  font-style: italic;
+  text-decoration: none;
+  transition: all 1s ease-in;
+}
+a:hover {
+  text-decoration: underline;
+}
+section {
+  line-height: 1.4;
+  margin: 24px 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 0.5rem 0;
+}
+ul li span {
+  color: blue;
+  font-weight: bold;
+}
+p {
+  margin-bottom: 1rem;
+}
+
+/* for code snippets */
+code {
+  display: block;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  font-family: monospace;
+}
