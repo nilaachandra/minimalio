@@ -26,22 +26,22 @@ A simple and minimal portfolio website template designed for developers. This pr
    ```
 2. **Navigate to the project directory**
     ```
-    cd minimal-portfolio
+    cd minimalio
     ```
 3. **Open the project:** Open the `index.html` file in your preferred web browser to view the website locally.
 Customization
 
 ## Edit HTML files:
+
 Modify the content in the HTML files to add your personal information, projects, and blog posts.
 **Update CSS:** Customize the styles.css file to change colors, fonts, and layout to match your preferences.
 **Add your own images:** Replace the placeholder images in the images folder with your own photos and project screenshots.
 
 ## Deployment
 You can deploy this website using various platforms. Here are a few options:
-
-GitHub Pages: Push your repository to GitHub and enable GitHub Pages in the repository settings.
-Netlify: Connect your GitHub repository to Netlify for automatic deployments.
-Vercel: Import your project from GitHub to Vercel for easy deployment and hosting.
+**GitHub Pages:** Push your repository to GitHub and enable GitHub Pages in the repository settings.
+**Netlify:** Connect your GitHub repository to Netlify for automatic deployments.
+**Vercel:** Import your project from GitHub to Vercel for easy deployment and hosting.
 
 ## Conclusion
 
