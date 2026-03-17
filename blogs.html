@@ -25,7 +25,7 @@
     />
     <meta
       property="og:url"
-      content="https://anirudhxd.github.io/myportfolio/blogs.html"
+      content="https://anirudhxd.github.io/myportfolio/blog.html"
     />
     <meta property="og:type" content="website" />
     <!-- optional for SEO -->
@@ -36,46 +36,77 @@
   </head>
   <body>
     <header>
-      <img src="./anirudh_profile_pic.jpg" alt="" height="90" width="90" />
+      <img src="./anirudh_profile_pic.jpg" alt="Anirudh Madhamshetty — DevOps & SRE Engineer" height="90" width="90" />
       <div>
         <div>
           <h1 style="line-height: 0">Anirudh Madhamshetty</h1>
         </div>
         <p style="color: #fd6500;">
-          Devops | Site Reliability Engineer
+          DevOps | Site Reliability Engineer
         </p>
+        <span class="status-badge">Open to Opportunities</span>
       </div>
     </header>
 
     <nav>
       <a href="index.html">Home</a>
-      <a href="works.html">Work Experience</a>
-      <a href="blogs.html" style="text-decoration: underline; color: white">Projects</a>
+      <a href="work_ex.html">Work Experience</a>
+      <a href="blog.html">Blog</a>
       <a href="contact.html">Contact Me</a>
     </nav>
     <main>
       <section>
         <h1>Blog</h1>
-        <p style="color: #aaa; font-style: italic;">Technical writeups on DevOps, SRE, and cloud engineering — coming soon.</p>
-        <ul>
-          <li>
-            <span>Upcoming:</span> Building an Observability Platform from Scratch on GKE
-          </li>
-          <li>
-            <span>Upcoming:</span> Lessons from PCI-DSS Compliance as a DevOps Engineer
-          </li>
-          <li>
-            <span>Upcoming:</span> Helm Charts Done Right — Patterns for Production Deployments
-          </li>
-        </ul>
+        <p class="page-intro">The best way to truly understand something is to write about it. These posts are in the works — real experiences from production, not theory.</p>
+        <div class="blog-cards">
+
+          <div class="blog-card">
+            <span class="draft-badge">Coming Soon</span>
+            <h3>Building an Observability Platform from Scratch on GKE</h3>
+            <p>A practical walkthrough of deploying Prometheus, configuring Grafana dashboards that actually mean something, and setting up Alertmanager routing that doesn't burn out your on-call team.</p>
+            <div class="tech-tags" style="margin-top: 12px;">
+              <span class="tag">Prometheus</span>
+              <span class="tag">Grafana</span>
+              <span class="tag">Alertmanager</span>
+              <span class="tag">GKE</span>
+            </div>
+          </div>
+
+          <div class="blog-card">
+            <span class="draft-badge">Coming Soon</span>
+            <h3>Lessons from PCI-DSS Compliance as a DevOps Engineer</h3>
+            <p>What nobody tells you about maintaining compliance in a cloud-native environment — 40+ vulnerabilities, audit cycles, and building monitoring that proves you're secure rather than just assuming it.</p>
+            <div class="tech-tags" style="margin-top: 12px;">
+              <span class="tag">PCI-DSS</span>
+              <span class="tag">SOC2</span>
+              <span class="tag">Security</span>
+              <span class="tag">GCP</span>
+            </div>
+          </div>
+
+          <div class="blog-card">
+            <span class="draft-badge">Coming Soon</span>
+            <h3>Helm Charts Done Right — Patterns for Production Deployments</h3>
+            <p>Beyond the basics — reusable chart templates, values strategies across environments, versioning your Helm repo, and making rollbacks a feature rather than a panic button.</p>
+            <div class="tech-tags" style="margin-top: 12px;">
+              <span class="tag">Helm</span>
+              <span class="tag">Kubernetes</span>
+              <span class="tag">CI/CD</span>
+              <span class="tag">Jenkins</span>
+            </div>
+          </div>
+
+        </div>
       </section>
     </main>
     <hr />
-
     <footer>
       <p style="font-style: italic">
         " SINCERITY | ENDURANCE | RESILIENCE | PERSEVERANCE "
       </p>
+      <p style="font-size: 12px; color: #444; margin-top: 6px;">© <span class="footer-year">2025</span> Anirudh Madhamshetty</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
+
